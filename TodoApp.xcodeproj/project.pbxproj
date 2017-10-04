@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F8F1DFF558E1018C9B624C5 /* Pods_taskAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DD4B899A123EC7F37E1C84 /* Pods_taskAppUITests.framework */; };
 		6B48E3B75378797B1C73A7AE /* Pods_taskAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DFA5B16244372B6B266E40 /* Pods_taskAppTests.framework */; };
+		723CA4CA1F7C95D5003EF97E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CA4C91F7C95D5003EF97E /* DetailViewController.swift */; };
 		727292BC1F7BBA7200F47012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727292BB1F7BBA7200F47012 /* AppDelegate.swift */; };
 		727292BE1F7BBA7200F47012 /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727292BD1F7BBA7200F47012 /* AddTaskController.swift */; };
 		727292C11F7BBA7200F47012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727292BF1F7BBA7200F47012 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		45DFA5B16244372B6B266E40 /* Pods_taskAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E57BD6415693ED3397A51EB /* Pods_TodoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF3648AD73B31A4B72FDBEB /* Pods_taskApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723CA4C91F7C95D5003EF97E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		727292B81F7BBA7200F47012 /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727292BB1F7BBA7200F47012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		727292BD1F7BBA7200F47012 /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				727292BD1F7BBA7200F47012 /* AddTaskController.swift */,
 				727292E91F7BC79C00F47012 /* TodoListController.swift */,
 				727292BF1F7BBA7200F47012 /* Main.storyboard */,
+				723CA4C91F7C95D5003EF97E /* DetailViewController.swift */,
 				727292EB1F7BD08C00F47012 /* Todo.swift */,
 				727292C21F7BBA7200F47012 /* Assets.xcassets */,
 				727292C41F7BBA7200F47012 /* LaunchScreen.storyboard */,
@@ -464,6 +467,7 @@
 			files = (
 				727292BE1F7BBA7200F47012 /* AddTaskController.swift in Sources */,
 				727292EA1F7BC79C00F47012 /* TodoListController.swift in Sources */,
+				723CA4CA1F7C95D5003EF97E /* DetailViewController.swift in Sources */,
 				727292BC1F7BBA7200F47012 /* AppDelegate.swift in Sources */,
 				727292EC1F7BD08C00F47012 /* Todo.swift in Sources */,
 			);

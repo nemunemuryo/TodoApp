@@ -9,6 +9,8 @@
 import UIKit
 import RealmSwift
 
+var appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+
 class TodoListController: UITableViewController {
     
     let realm = try! Realm()
@@ -64,6 +66,14 @@ class TodoListController: UITableViewController {
             realm.delete(todoCollection[indexPath.row])
         }
         todoListTable.reloadData()
+    }
+    
+    override func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
+        let todoCollection = realm.objects(Todo.self)
+        let todo = todoCollection[indexPath.row]
+        appDelegate.todoName = todo.title
+//        print(appDelegate.todoName)
+        
     }
     
 }
